@@ -60,6 +60,23 @@ img {
 .project-description {
   padding: 60px 60px;
 }
+.about-me {
+  padding: 160px 20px;
+}
+.about-me h1 {
+  font-size: 64px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -72,5 +89,8 @@ img {
   }
   .intro h2 {
     font-size: 16px;
+  }
+  .about-me {
+    padding: 10px;
   }
 }
