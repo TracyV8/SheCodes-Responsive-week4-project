@@ -11,13 +11,19 @@ h2 {
   font-size: 96px;
   line-height: 1.5;
 }
+
 h2 {
-  font-size: 64px;
+  font-size: 44px;
+  text-align: center;
 }
+
 h3 {
   text-align: center;
   font-family: var(--secondary-font-family);
   font-size: 24px;
+}
+h4 {
+  font-size: 48px;
 }
 p {
   font-family: var(--secondary-font-family);
@@ -101,14 +107,40 @@ nav a:hover {
   font-size: 64px;
   text-align: center;
 }
-h2 {
-  font-size: 30px;
-  text-align: center;
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 80px;
+  border-radius: 10px;
 }
-p {
-  font-size: 18px;
-  line-height: 1.5;
+footer .email-link {
+  display: block;
   text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  padding: 10px 14px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+footer .social-links {
+  display: block;
+  text-align: center;
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {
@@ -130,8 +162,4 @@ p {
   nav a {
     font-size: 12px;
   }
-  
-
-
-}
 }
